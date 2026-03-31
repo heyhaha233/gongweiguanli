@@ -14,7 +14,8 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <Router>
         <Routes>
-          <Route path="/" element={<StudentCheckIn />} />
+          <Route path="/" element={<Analytics />} />
+          <Route path="/checkin" element={<StudentCheckIn />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/teacher/login" element={<TeacherLogin />} />
           <Route path="/teacher/dashboard" element={<TeacherDashboard />} />
