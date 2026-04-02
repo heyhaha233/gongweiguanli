@@ -619,7 +619,9 @@ const Analytics: React.FC = () => {
     <div style={{ 
       padding: 20, 
       background: 'linear-gradient(135deg, #f0f4f8 0%, #e9ecef 100%)', 
-      minHeight: '100vh'
+      minHeight: '100vh',
+      maxWidth: '100%',
+      margin: '0 auto'
     }}>
       {/* 顶部标题和控制区 */}
       <div style={{ marginBottom: 32, textAlign: 'center' }}>
